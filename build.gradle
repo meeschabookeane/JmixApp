@@ -71,3 +71,5 @@ test {
 compileWidgets {
     generate "com.company.untitled.widgets.CustomWidgetSet"
 }
+sourceCompatibility = JavaVersion.VERSION_16
+targetCompatibility = JavaVersion.VERSION_16
