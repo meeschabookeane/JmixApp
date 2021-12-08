@@ -42,4 +42,10 @@
     <groupBox orientation="vertical" spacing="true" id="GROUP1">
         <comboBox id="LPO" caption="LPO Bank" optionsEnum="com.company.untitled.entity.LPO_Banks"/>
     </groupBox>
+    <dateField id="1"/>
+    <datePicker id="2"/>
+    <currencyField/>
+    <colorPicker id="3"/>
+    <checkBox id="4"/>
+    <capsLockIndicator id="5"/>
 </window>
