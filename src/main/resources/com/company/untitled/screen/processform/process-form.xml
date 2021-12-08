@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+  ~ Copyright 2021 Haulmont.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<window xmlns="http://jmix.io/schema/ui/window"
+        caption="msg://processForm.caption" xmlns:chart="http://jmix.io/schema/ui/charts">
+    <data>
+        <keyValueCollection id="KeyValueCollection"/>
+    </data>
+    <groupBox orientation="vertical" spacing="true">
+        <label value="Request" id="arch_req_label"/>
+        <singleSelectList id="LPO_Bank"/>
+    </groupBox>
+    <groupBox orientation="vertical" spacing="true">
+        <singleSelectList id="LPO_list"/>
+    </groupBox>
+    <accordion height="100px">
+        <tab caption="Tab1" id="tab_1" spacing="true"/>
+        <tab caption="Tab2" id="tab_2" spacing="true"/>
+    </accordion>
+    <singleSelectList/>
+    <singleSelectList optionsEnum="com.company.untitled.entity.LPO_Banks"/>
+    <groupBox orientation="vertical" spacing="true" id="BOX_1"/>
+    <groupBox orientation="vertical" spacing="true"/>
+    <datePicker/>
+    <comboBox/>
+    <groupBox orientation="vertical" spacing="true">
+        <comboBox optionsEnum="com.company.untitled.entity.LPO_Banks"/>
+    </groupBox>
+    <groupBox orientation="vertical" spacing="true" id="GROUP1">
+        <comboBox id="LPO" caption="LPO Bank" optionsEnum="com.company.untitled.entity.LPO_Banks"/>
+    </groupBox>
+</window>
